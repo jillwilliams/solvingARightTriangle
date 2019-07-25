@@ -1,0 +1,219 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive; */
+/* Brown = #B22222
+limegreen = #32CD32
+wheat = #F5DEB3 */
+
+body {
+    background-color: blue;
+    padding: 25px;
+}
+/* TITLE:    SOLVING FOR A RIGHT TRIANGLE */
+.title {
+    font-size: 1.6rem;
+    color: lime;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+/* SECOND TITLE/HEADING:    USING TRIG FUNCTIONS */
+.subTitle {
+    font-size: 1.4rem;
+    color: lime;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+/* PICTURE:    RIGHT TRIANGLE TRIG. PICTURE */
+#rightTrianglePicture {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* TEXT:    INTRODUCTORY PARAGRAPH */
+#paragraph_1 {
+    font-size: 1rem;
+    color: lime;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+/* TEXT:    INTRODUCTORY PARAGRAPH #2 */
+#paragraph_2 {
+    font-size: 1rem;
+    color: wheat;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+/* TEXT:    INTRODUCTORY PARAGRAPH #3 */
+#paragraph_2 {
+    font-size: 1rem;
+    color: wheat;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+/* TEXT:    INTRODUCTORY PARAGRAPH #3 */
+#paragraph_3 {
+    font-size: 1rem;
+    color: lime;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+/* TEXT:     ALL THE TEXT ABOVE THE INPUT BOXES */
+#text_answer {
+    font-size: 1.1rem;
+    color: lime;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    letter-spacing: 0.3rem;
+    margin-left: 15px;
+    text-align: center;
+} 
+/* TEXT-BOX      USER ENTERING THE VALUE OF THE MEASUREMENTS THEY KNOW ALREADY */
+#myA, #myB, #myC, #myAlpha, #myBeta {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #004C99;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 15px;
+}
+/* SUBMIT BUTTON:       SOLVE FOR THE RIGHT TRIANGLE */
+#submit_Button {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #004C99;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 130px;
+    height: 60px;
+    background-color: wheat;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#submit_Button:hover {
+    font-size: 1.5rem;
+    text-align: center;
+    color: lime;
+    border: 2px wheat solid;
+    border-radius: 25%;
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+/* TEXT:      "THE SOLUTIONS ARE"  */
+#paragraph_4 {
+    font-size: 1.2rem;
+    color: lime;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+}
+/* TEXT:     RETURN OF THE ANSWERS OF THE PROBLEM */
+/* #text_answer {
+    font-size: 1rem;
+    color: red;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    letter-spacing: 0.3rem;
+    margin-left: 15px;
+    text-align: center;
+}  */
+/* TEXT-BOXES:     OUTPUTS FOR THE ANSWERS TO THE PROBLEM */
+#a {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #004C99;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 15px;
+
+}
+#b {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #004C99;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 15px;
+}
+#c {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #004C99;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 15px;
+}
+#alpha {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #004C99;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 15px;
+}
+#beta {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #004C99;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 15px;
+}
+/* #z {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #004C99;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border: 2px black solid;
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 15px;
+} */
+footer {
+    color: lime;
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}

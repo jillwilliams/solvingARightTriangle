@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solving for a Right Triangle</title>
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <meta name="description" content="Math Help">
+    <meta name="keywords" content="math, math help, math tutoring, math online tutoring, math online help, math worksheets, foil, algebra 1, algebra 2, algebra 3, pre-calculus, geometry, trigonometry, factoring binomials, sin, cos, tan, arc length">
+    <meta name="author" content="JK Williams">
+</head>
+<body>
+  <h1 class="title">Solving for a Right Triangle</h1>
+  <h3 class="subTitle">Using Trig Functions</h3>
+  <p>
+    <img src="./images/trig_triangle.png" alt="right triangle" id="rightTrianglePicture" /> 
+  </p>
+  <p id="paragraph_1">
+    The term "solving for a right triangle" means that you are tasked with determinging the lengths of all three sides of the triangle and all three interior angle measures (usually in degrees).
+  </p>
+  <p id ="paragraph_2">
+    The method to obtain these measurements are NOT intended to be physically measured with a ruler or protractor.  The purpose is to use mathematical relationships between the measurements of the side lengths and the angles' degrees in order to calculate the answer.
+  </p>
+  <p id="paragraph_3">
+    Since every triangle has three sides and three angles, you will always have six answers when you 'solve a right triangle'.
+  </p>
+  <p id="paragraph_2">
+    Directions: Using the diagram above, enter in any values that you have been given about your triangle.
+  </p>
+  <p id="paragraph_3"> 
+    Variables 'a' and 'b' are the lengths of the two sides of the triangle that aren't the hypotenuse.
+  </p>
+  <p id ="paragraph_2">
+    The hypotenuse is assigned variable 'c' to represent its legth (always). Enter the hypotenuse's length in to the box for variable c.
+  </p>
+  <p id="paragraph_3">
+    Looking at your triangle, it is important to enter the angle degrees into the correct boxes.
+  </p> 
+  <p id="paragraph_2">
+    Angle α is 'across' from its corresponding side 'a'.
+  </p>
+  <p id="paragraph_2">
+    Angle β is 'across' from its corresponding side 'b'.
+  </p>
+  <table id="text_answer">
+    <tr>
+      <td>
+        <p class="text_above">Variable a = <br>
+          <input type="text" id="myA" />
+        </p>
+      </td>
+      <td>
+          <p class="text_above">Variable b = <br>
+            <input type="text" id="myB" />
+      </td>
+      <td>
+          <p class="text_above">Variable c = <br>
+            <input type="text" id="myC" />
+      </td>
+      <td>
+          <p class="text_above">Variable α = <br>
+            <input type="text" id="myAlpha" />
+      </td>
+      <td>
+          <p class="text_above">Variable β = <br>
+            <input type="text" id="myBeta" />
+      </td>
+    </tr>
+  </table>
+  
+<!-- submit button to solve for the right triangle -->
+  <button 
+    type="submit" 
+    id="submit_Button"
+    onClick="solveTriangle( )"
+    >
+    Submit
+  </button> 
+
+  <div>
+      <p id="paragraph_4">
+        The solutions are: 
+      </p>
+  </div>
+  <table id="text_answer">
+    <tr>
+      <td>
+        variable a = 
+        <p id="a"></p>
+      </td>
+      <td>
+        Variable b = 
+        <p id="b"></p>
+      </td>
+      <td>
+        Variable c = 
+        <p id="c"></p>
+      </td>
+      <td>
+        Variable α = 
+        <p id="alpha"></p>
+      </td>
+      <td>
+        Variable β = 
+        <p id="beta"></p>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td>
+        <p id="z" col-span="5"></p>
+      </td>
+    </tr> -->
+  </table>    
+  <footer>©2019 MATHGEEK  ALL RIGHTS RESERVED</footer>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
