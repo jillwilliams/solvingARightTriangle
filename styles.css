@@ -127,15 +127,6 @@ body {
     text-align: left;
     margin-left: 15px;
 }
-/* TEXT:     RETURN OF THE ANSWERS OF THE PROBLEM */
-/* #text_answer {
-    font-size: 1rem;
-    color: red;
-    font-family: 'Indie Flower', cursive, sans-serif;
-    letter-spacing: 0.3rem;
-    margin-left: 15px;
-    text-align: center;
-}  */
 /* TEXT-BOXES:     OUTPUTS FOR THE ANSWERS TO THE PROBLEM */
 #a {
     font-size: 1.3rem;
@@ -148,7 +139,6 @@ body {
     height: 50px;
     background-color: wheat;
     margin-left: 15px;
-
 }
 #b {
     font-size: 1.3rem;
@@ -198,18 +188,10 @@ body {
     background-color: wheat;
     margin-left: 15px;
 }
-/* #z {
-    font-size: 1.3rem;
-    text-align: center;
-    color: #004C99;
-    font-family: 'Dancing Script', cursive, sans-serif;
+iframe {
+    margin: 15px 33% 15px 33%;
     border: 2px black solid;
-    border-radius: 25%;
-    width: 90px;
-    height: 50px;
-    background-color: wheat;
-    margin-left: 15px;
-} */
+}
 footer {
     color: lime;
     font-size: 1rem;
