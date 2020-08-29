@@ -11,107 +11,145 @@
     <meta name="author" content="JK Williams">
 </head>
 <body>
-  <h1 class="title">Solving for a Right Triangle</h1>
-  <h3 class="subTitle">Using Trig Functions</h3>
-  <p>
-    <img src="./images/trig_triangle.png" alt="right triangle" id="rightTrianglePicture" /> 
-  </p>
-  <p id="paragraph_1">
+    <h1 class="title">Solving for a Right Triangle</h1>
+    <h3 class="subTitle">Using Trig Functions</h3>
+    <p>
+        <img src="images/pic2.png" alt="right triangle" id="rightTrianglePicture" /> 
+    </p>
+    <p id="paragraph_1">
     The term "solving for a right triangle" means that you are tasked with determinging the lengths of all three sides of the triangle and all three interior angle measures (usually in degrees).
-  </p>
-  <p id ="paragraph_2">
+    </p>
+    <p id ="paragraph_2">
     The method to obtain these measurements are NOT intended to be physically measured with a ruler or protractor.  The purpose is to use mathematical relationships between the measurements of the side lengths and the angles' degrees in order to calculate the answer.
-  </p>
-  <p id="paragraph_3">
+    </p>
+    <p id="paragraph_3">
     Since every triangle has three sides and three angles, you will always have six answers when you 'solve a right triangle'.
-  </p>
-  <p id="paragraph_2">
+    </p>
+    <p id="paragraph_2">
     Directions: Using the diagram above, enter in any values that you have been given about your triangle.
-  </p>
-  <p id="paragraph_3"> 
+    </p>
+    <p id="paragraph_3"> 
     Variables 'a' and 'b' are the lengths of the two sides of the triangle that aren't the hypotenuse.
-  </p>
-  <p id ="paragraph_2">
+    </p>
+    <p id ="paragraph_2">
     The hypotenuse is assigned variable 'c' to represent its legth (always). Enter the hypotenuse's length in to the box for variable c.
-  </p>
-  <p id="paragraph_3">
+    </p>
+    <p id="paragraph_3">
     Looking at your triangle, it is important to enter the angle degrees into the correct boxes.
-  </p> 
-  <p id="paragraph_2">
+    </p> 
+    <p id="paragraph_2">
     Angle α is 'across' from its corresponding side 'a'.
-  </p>
-  <p id="paragraph_2">
+    </p>
+    <p id="paragraph_2">
     Angle β is 'across' from its corresponding side 'b'.
-  </p>
-  <table id="text_answer">
-    <tr>
-      <td>
-        <p class="text_above">Variable a <br>
-          <input type="text" id="myA" />
-        </p>
-      </td>
-      <td>
-          <p class="text_above">Variable b <br>
-            <input type="text" id="myB" />
-      </td>
-      <td>
-          <p class="text_above">Variable c <br>
-            <input type="text" id="myC" />
-      </td>
-      <td>
-          <p class="text_above">Variable α <br>
-            <input type="text" id="myAlpha" />
-      </td>
-      <td>
-          <p class="text_above">Variable β <br>
-            <input type="text" id="myBeta" />
-      </td>
-    </tr>
-  </table>
-  
+    </p><hr>
+    <p id="paragraph_2">
+    Example 1:<br>
+        <img src="images/pic1.png" alt="ex1" id="pic1" />
+        Enter your values into the boxes.<br>Then click the submit button under the empty boxes to get the solution.
+        <img src="images/pic3.png" alt="ex1" id="pic3" />
+    </p>
+    <hr>
+    <p id="paragraph_2">
+        You must have 2 sides and one angle for this calculator to work. If you only have one side and one angle use Trig to solve the triangle.<br>
+        <a href="https://jillwilliams.github.io/SOH-CAH-TOA/">SOH-CAH-TOA</a>
+    </p>
+    <hr>
+    <table id="text_answer">
+        <tr>
+            <td>
+                <p class="text_above">Var a <br>
+                <input type="text" id="myA" />
+                </p>
+            </td>
+            <td>
+                <p class="text_above">Var b <br>
+                    <input type="text" id="myB" />
+            </td>
+            <td>
+                <p class="text_above">Var c <br>
+                    <input type="text" id="myC" />
+            </td>
+            <td>
+                <p class="text_above">Var α <br>
+                    <input type="text" id="myAlpha" />
+            </td>
+            <td>
+                <p class="text_above">Var β <br>
+                    <input type="text" id="myBeta" />
+            </td>
+        </tr>
+    </table>
 <!-- submit button to solve for the right triangle -->
-  <button 
+    <button 
     type="submit" 
     id="submit_Button"
-    onClick="solveTriangle( )"
+    onClick="myCalca( )"
     >
     Submit
-  </button> 
-
-  <div>
-      <p id="paragraph_4">
-        The solutions are: 
-      </p>
-  </div>
-  <table id="text_answer">
-    <tr>
-      <td>
-        variable a  
-        <p id="a"></p>
-      </td>
-      <td>
-        Variable b  
-        <p id="b"></p>
-      </td>
-      <td>
-        Variable c  
-        <p id="c"></p>
-      </td>
-      <td>
-        Variable α 
-        <p id="alpha"></p>
-      </td>
-      <td>
-        Variable β  
-        <p id="beta"></p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/fjUN809FPRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
-  </p>  
-  <footer>©2019 MATHGEEK  ALL RIGHTS RESERVED</footer>
-  <script type="text/javascript" src="./script.js"></script>
+    </button> 
+    <button 
+    type="submit" 
+    id="submit_Button"
+    onClick="myCalcb( )"
+    >
+    Submit
+    </button>
+    <button 
+    type="submit" 
+    id="submit_Button"
+    onClick="myCalcc( )"
+    >
+    Submit
+    </button>
+    <button 
+    type="submit" 
+    id="submit_Button"
+    onClick="myCalcalpha( )"
+    >
+    Submit
+    </button>
+    <button 
+    type="submit" 
+    id="submit_Button"
+    onClick="myCalcbeta( )"
+    >
+    Submit
+    </button>
+    <div>
+        <p id="paragraph_4">
+            The solutions are: 
+        </p>
+    </div>
+    <table id="text_answer">
+        <tr>
+        <td>
+            var a  
+            <p id="a"></p>
+        </td>
+        <td>
+            Var b  
+            <p id="b"></p>
+        </td>
+        <td>
+            Var c  
+            <p id="c"></p>
+        </td>
+        <td>
+            Var α 
+            <p id="alpha"></p>
+        </td>
+        <td>
+            Var β  
+            <p id="beta"></p>
+        </td>
+        </tr>
+    </table>
+    <hr>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fjUN809FPRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+    </p>  
+    <footer>©2020 All Things Math<br>All Rights Reserved</footer>
+    <script type="text/javascript" src="./script3.js"></script>
 </body>
 </html>

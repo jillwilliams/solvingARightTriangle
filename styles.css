@@ -8,6 +8,7 @@ wheat = #F5DEB3 */
 body {
     background-color: blue;
     padding: 25px;
+    font-size: 1.6rem;
 }
 /* TITLE:    SOLVING FOR A RIGHT TRIANGLE */
 .title {
@@ -20,7 +21,7 @@ body {
 }
 /* SECOND TITLE/HEADING:    USING TRIG FUNCTIONS */
 .subTitle {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: lime;
     font-family: 'Shadows Into Light', cursive, sans-serif;
     text-align: center;
@@ -29,14 +30,14 @@ body {
 }
 /* PICTURE:    RIGHT TRIANGLE TRIG. PICTURE */
 #rightTrianglePicture {
-    width: 60%;
+    width: 40%;
     height: auto;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 15px 30%;
+    border: 2px black solid;
 }
 /* TEXT:    INTRODUCTORY PARAGRAPH */
 #paragraph_1 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: lime;
     font-family: 'Shadows Into Light', cursive, sans-serif;
     text-align: center;
@@ -45,7 +46,7 @@ body {
 }
 /* TEXT:    INTRODUCTORY PARAGRAPH #2 */
 #paragraph_2 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: wheat;
     font-family: 'Indie Flower', cursive, sans-serif;
     text-align: center;
@@ -54,7 +55,7 @@ body {
 }
 /* TEXT:    INTRODUCTORY PARAGRAPH #3 */
 #paragraph_2 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: wheat;
     font-family: 'Indie Flower', cursive, sans-serif;
     text-align: center;
@@ -63,7 +64,7 @@ body {
 }
 /* TEXT:    INTRODUCTORY PARAGRAPH #3 */
 #paragraph_3 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: lime;
     font-family: 'Indie Flower', cursive, sans-serif;
     text-align: center;
@@ -94,28 +95,15 @@ body {
 }
 /* SUBMIT BUTTON:       SOLVE FOR THE RIGHT TRIANGLE */
 #submit_Button {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: center;
     color: #004C99;
     border: 2px black solid;
     border-radius: 25%;
-    width: 130px;
+    width: 100px;
     height: 60px;
     background-color: wheat;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-#submit_Button:hover {
-    font-size: 1.5rem;
-    text-align: center;
-    color: lime;
-    border: 2px wheat solid;
-    border-radius: 25%;
-    width: 130px;
-    height: 60px;
-    background-color: black;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 19px;
 }
 /* TEXT:      "THE SOLUTIONS ARE"  */
 #paragraph_4 {
@@ -139,6 +127,7 @@ body {
     height: 50px;
     background-color: wheat;
     margin-left: 15px;
+    padding: 5px;
 }
 #b {
     font-size: 1.3rem;
@@ -151,6 +140,7 @@ body {
     height: 50px;
     background-color: wheat;
     margin-left: 15px;
+    padding: 5px;
 }
 #c {
     font-size: 1.3rem;
@@ -163,6 +153,7 @@ body {
     height: 50px;
     background-color: wheat;
     margin-left: 15px;
+    padding-top: 15px;
 }
 #alpha {
     font-size: 1.3rem;
@@ -175,6 +166,7 @@ body {
     height: 50px;
     background-color: wheat;
     margin-left: 15px;
+    padding: 5px;
 }
 #beta {
     font-size: 1.3rem;
@@ -187,6 +179,19 @@ body {
     height: 50px;
     background-color: wheat;
     margin-left: 15px;
+    padding: 5px;
+}
+#pic1 {
+    width: 20%;
+    height: auto;
+    border: 2px black solid;
+    margin: 15px 40%;
+}
+#pic3 {
+    width: 30%;
+    height: auto;
+    border: 2px black solid;
+    margin: 15px 35%;
 }
 iframe {
     margin: 15px 33% 15px 33%;

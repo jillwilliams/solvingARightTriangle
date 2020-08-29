@@ -10,10 +10,10 @@ const solveForC = ( ) => {
         var answer = calculation.toFixed(4);
             return answer;
     } else
-        return;
+        return "";
 }
 document.getElementById("c").innerHTML = solveForC( );
-  
+
 // SOLVE FOR A, GIVEN THE VALUES OF B AND C 
 const solveForA = ( ) => {
     if (b != 0 && c != 0) {
@@ -21,7 +21,7 @@ const solveForA = ( ) => {
         var answer = calculation.toFixed(4);    
             return answer;
     } else 
-        return;
+        return "";
 }
 document.getElementById("a").innerHTML = solveForA( );
 
